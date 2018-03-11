@@ -1,24 +1,18 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Below steps are operated on terminal
 
-Things you may want to cover:
+step1 :clone the project from the remote
+git clone https://github.com/Sanfan520/git_exercise1.git
 
-* Ruby version
+step2: enter project git_exercise1
+cd git_exercise1
 
-* System dependencies
+step3: install all the rails gem
+bundle install
 
-* Configuration
+step4: rails db:migrate
+migrate the database
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+step5: rails db:seed
+run all the data seed
